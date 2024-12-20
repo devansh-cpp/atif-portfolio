@@ -32,10 +32,10 @@ export const AnimatedTooltip = ({
     useTransform(x, [-100, 100], [-50, 50]),
     springConfig
   );
-  const handleMouseMove = (event: any|null) => {
-    const halfWidth = event.target.offsetWidth / 2;
-    x.set(event.nativeEvent.offsetX - halfWidth); // set the x value, which is then used in transform and rotate
-  };
+  // const handleMouseMove = (event) => {
+  //   const halfWidth = event.target.offsetWidth / 2;
+  //   x.set(event.nativeEvent.offsetX - halfWidth); // set the x value, which is then used in transform and rotate
+  // };
 
   return (
     <>
@@ -78,7 +78,7 @@ export const AnimatedTooltip = ({
             )}
           </AnimatePresence>
           <Image
-            onMouseMove={handleMouseMove}
+            // onMouseMove={handleMouseMove}
             height={100}
             width={100}
             src={item.image}
