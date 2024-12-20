@@ -17,8 +17,8 @@ export function Testimonials() {
         Words from Others
       </div>
       <Peoples/>
-      <h1 className="text-3xl md:text-5xl font-semibold text-white">It's not just me.</h1>
-      <p className="text-lg md:text-2xl text-gray-100">Here's what others have to say about me.</p>
+      <h1 className="text-3xl md:text-5xl font-semibold text-white">Its not just me.</h1>
+      <p className="text-lg md:text-2xl text-gray-100">Here what others have to say about me.</p>
     </div>
     
 
