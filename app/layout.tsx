@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Atif Abbas Portfolio - Youngest Entrepreneur from Ayodhya",
+  title: "Atif Abbas - Entrepreneur from Ayodhya",
   description:
-    "Meet Atif Abbas, the youngest entrepreneur from Rudauli, Ayodhya, Uttar Pradesh. A millionaire at 19, public speaker, and top influencer of Rudauli. Explore his journey here.",
+    "Meet Atif Abbas, the entrepreneur from Rudauli, Ayodhya, Uttar Pradesh. A millionaire at 19, public speaker, and top influencer of Rudauli. Explore his journey here.",
   keywords: [
     "Atif Abbas",
     "youngest entrepreneur",
@@ -28,17 +28,17 @@ export const metadata: Metadata = {
     "entrepreneurs India",
   ],
   openGraph: {
-    title: "Atif Abbas Portfolio",
+    title: "Atif Abbas ",
     description:
-      "Learn about Atif Abbas, a 19-year-old millionaire entrepreneur from Rudauli, Ayodhya. A visionary leader, speaker, and influencer.",
-    url: "https://yourdomain.com",
-    siteName: "Atif Abbas Portfolio",
+      "Learn about Atif Abbas, a 19-year-old entrepreneur from Rudauli, Ayodhya. A visionary leader, speaker, and influencer.",
+    url: "https://atifabbasportfolio.vercel.app",
+    siteName: "Atif Abbas ",
     images: [
       {
-        url: "https://yourdomain.com/atif-abbas-cover.jpg", // Replace with your image URL
+        url: "./atif.png", // Replace with your image URL
         width: 1200,
         height: 630,
-        alt: "Atif Abbas - Young Entrepreneur",
+        alt: "Atif Abbas -  Entrepreneur",
       },
     ],
     locale: "en_US",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     title: "Atif Abbas Portfolio - Youngest Entrepreneur",
     description:
       "Discover Atif Abbas, a 19-year-old entrepreneur and speaker from Rudauli, Ayodhya, Uttar Pradesh.",
-    images: ["https://yourdomain.com/atif-abbas-cover.jpg"], // Replace with your image URL
+    images: ["./atif.png"], // Replace with your image URL
   },
 };
 
@@ -79,7 +79,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <link
           rel="canonical"
-          href="https://yourdomain.com"
+          href="https://atifabbasportfolio.vercel.app"
         />
         <title>Atif Abbas - Entrepreneur from Ayodhya</title>
 
@@ -102,9 +102,10 @@ export default function RootLayout({
                 addressCountry: "India",
               },
               sameAs: [
-                "https://www.facebook.com/atifabbas",
-                "https://www.instagram.com/atifabbas",
-                "https://www.linkedin.com/in/atifabbas",
+                "https://www.facebook.com/nawabmohammad.atif",
+                "https://www.instagram.com/official_atif_8005",
+                "https://www.linkedin.com/in/mohammad-atif-abbas-4a879b2ba",
+                "https://x.com/MohammadAtif001",
               ],
             }),
           }}
