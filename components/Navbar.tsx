@@ -57,7 +57,7 @@ const handleScrollToContact = () => {
      
      </div>
     </div>
-    <div className="bg-black z-50 w-[100vw] h-[50px] sm:hidden fixed top-0 left-0 mb-14 flex justify-between items-center p-2">
+    <div className="bg-black  z-50 w-[100vw] h-[50px] sm:hidden fixed top-0 left-0 mb-14 flex justify-between items-center p-2">
         {/* Logo */}
         <Link href={'/'}>
           <Image
@@ -70,22 +70,22 @@ const handleScrollToContact = () => {
 
         {/* Hamburger icon */}
         <div onClick={() => setMenuOpen(!menuOpen)} className="cursor-pointer">
-          <FaBars size={24} />
+          <FaBars size={24}  className='text-[#d8ab6f]'/>
         </div>
 
         {/* Mobile menu */}
         {menuOpen && (
-          <div className="absolute top-16 right-5 bg-white shadow-md rounded-lg p-3 space-y-2 w-[150px]">
-            <button className="block px-4 py-2 text-gray-800 hover:bg-gray-200 rounded">
+          <div className="absolute top-16 right-5   backdrop-blur-lg  shadow-md rounded-lg p-3 space-y-2 w-[150px]">
+            <button className="block z-20 px-4 py-2 text-[#d8ab6f] hover:bg-gray-200 rounded">
               Home
             </button>
             <Link href={'./'}
               onClick={handleScrollToTeam}
-              className="block px-4 py-2 text-gray-800 hover:bg-gray-200 rounded"
+              className="block px-4 py-2 text-[#d8ab6f] hover:bg-gray-200 rounded"
             >
               Teams
             </Link>
-            <button onClick={handleScrollToContact} className="block px-4 py-2 text-gray-800 hover:bg-gray-200 rounded">
+            <button onClick={handleScrollToContact} className="block px-4 py-2 text-[#d8ab6f] hover:bg-gray-200 rounded">
               Contact
             </button>
           </div>

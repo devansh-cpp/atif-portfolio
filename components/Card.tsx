@@ -18,21 +18,22 @@ export function TypewriterEffectSmoothDemo() {
     },
   ];
   return (
-    <div className="flex flex-col items-center mt-24 justify-center h-[40rem]  ">
+    <div className="h-screen flex flex-col items-center mt-12 justify-center   ">
         <Image
                       src="/atif2.png"  // Replace with your actual image path
                       alt="Centered Image"
-                      width={750}  // Set your desired image width
-                      height={500} // Set your desired image height
-                      className="object-cover p-4  "
+                      width={500}  // Set your desired image width
+                      height={300} // Set your desired image height
+                      className="object-cover scale-90 p-4  "
                     />
-      <p className="text-neutral-600 dark:text-neutral-200 text-sm sm:text-base  ">
-        A visionary entrepreneur, passionate social activis
-      </p>
       <TypewriterEffectSmooth words={words} />
-        <button onClick={handleScrollToContact} className="px-8 py-4 mb-16 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm">
+      <p className="text-neutral-600 opacity-50 px-4 pb-4 text-cneter dark:text-neutral-200 text-sm sm:text-base  ">
+      A visionary entrepreneur, passionate social activist, and dynamic public speaker dedicated to creating impact and shaping the future. From building innovative businesses to driving social change, Atif Abbas inspires individuals and communities to dream big, act boldly, and lead with purpose.
+      </p>
+        <button onClick={handleScrollToContact} className="px-8 py-4 mb-32 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm">
           Connect with Atif
         </button>
+
     </div>
   );
 }

@@ -69,7 +69,7 @@ export function Team() {
   
   return <>
     <div id="team" className=" flex flex-col justify-center items-center">   
-        <h1 className="mt-8 md:text-4xl text-2xl font-bold text-[#b7d1e1] "> Meet my team</h1>     
+        <h1 className=" md:text-4xl text-2xl font-bold text-[#b7d1e1] "> Meet my team</h1>     
   <AnimatedTestimonials testimonials={testimonials} />
     </div>
   </>;

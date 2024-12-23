@@ -3,11 +3,8 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <div className="text-center">
-      <Link href="/" className="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900">
-        <img src="/devxlogo.png" className="h-12 mr-3 bg-neutral-600 sm:h-9" alt="Landwind Logo" />
-      </Link>
-
+    <div className="text-center py-4 ">
+      
       <span className="block text-sm text-center text-gray-500">
         © 2024 Devxloper. All Rights Reserved.
         <Link href="https://devxportfolio.vercel.app">

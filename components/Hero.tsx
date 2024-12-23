@@ -69,6 +69,7 @@ function HomePage() {
         <div className="sm:hidden flex flex-col items-center justify-center mt-0 ">
         
         <TypewriterEffectSmoothDemo/>
+
         </div>
      </div>
     </>
