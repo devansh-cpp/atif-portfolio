@@ -62,6 +62,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Basic Meta Tags */}
+        <meta name="google-site-verification" content="5dqQTBV4iGbihpeGkQJ7Nd-_kKE23IJBdDFY-Q3EJPk" />
         <meta charSet="UTF-8" />
         <meta
           name="viewport"
