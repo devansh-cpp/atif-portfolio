@@ -14,6 +14,7 @@ export const InfiniteMovingCards = ({
     quote: string;
     name: string;
     title: string;
+    people: string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -94,25 +95,34 @@ export const InfiniteMovingCards = ({
             }}
             key={item.name}
           >
-            <blockquote>
-              <div
-                aria-hidden="true"
-                className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
-              ></div>
-              <span className=" relative z-20 text-sm leading-[1.6] text-gray-100 font-normal">
-                {item.quote}
-              </span>
-              <div className="relative z-20 mt-6 flex flex-row items-center">
-                <span className="flex flex-col gap-1">
-                  <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
-                    {item.name}
-                  </span>
-                  <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
-                    {item.title}
-                  </span>
-                </span>
-              </div>
-            </blockquote>
+            <blockquote className="relative   p-6 rounded-lg shadow-lg">
+  <div
+    aria-hidden="true"
+    className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%+4px)] w-[calc(100%+4px)]"
+  ></div>
+
+  {/* Quote and Image Section */}
+  <div className="flex items-center gap-4">
+    <div className="min-w-10 min-h-10">
+
+    <img
+      src={item.people}
+      alt={item.name}
+      className="w-10 h-10 object-cover rounded-full border-2 border-gray-700"
+    />
+    </div>
+    <span className="relative z-20 text-sm leading-[1.6] text-gray-100 font-normal">
+      {item.quote}
+    </span>
+  </div>
+
+  {/* Name and Title Section */}
+  <div className="relative z-20 mt-4 flex flex-col items-start">
+    <span className="text-sm font-medium text-gray-200">{item.name}</span>
+    <span className="text-sm font-normal text-gray-400">{item.title}</span>
+  </div>
+</blockquote>
+
           </li>
         ))}
       </ul>
