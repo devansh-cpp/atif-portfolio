@@ -65,6 +65,7 @@ const handleScrollToContact = () => {
             alt="Logo"
             width={50} // Adjusted for better responsiveness
             height={50} // Adjusted for better responsiveness
+            className=''
           />
         </Link>
 

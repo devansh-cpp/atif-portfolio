@@ -15,7 +15,7 @@ export function Testimonials() {
       >
         Words from Others
       </div>
-      <h1 className="text-3xl md:text-5xl font-semibold text-white">Its not just me.</h1>
+      <h1 className="text-3xl md:text-5xl font-semibold text-[#d8ab6f] ">Its not just me.</h1>
       <p className="text-lg md:text-2xl text-gray-100">Here what others have to say about me.</p>
     </div>
     
@@ -26,7 +26,7 @@ export function Testimonials() {
       <InfiniteMovingCards
         items={testimonials}
         direction="right"
-        speed="slow"
+        speed="normal"
       />
     </div>
 </section>
@@ -38,7 +38,7 @@ const testimonials = [
   {
     quote:
       "Atif innovative mindset and dedication to excellence have been a driving force behind his success. He consistently delivers outstanding results.",
-    name: "Shah Alam Qadri",
+    name: "Dr. Shah Alam Qadri",
     title: "Founder of QCL Institutes",
     people : './Alam.jpg'
   },
@@ -52,10 +52,18 @@ const testimonials = [
   {
     quote:
       "Working with Atif has been an inspiring experience. His problem-solving skills and innovative ideas make him stand out in the industry.",
-    name: "Mohammad Kaif",
-    title: "DRX",
+    name: "DRX Mohammad Kaif",
+    title: "",
     people : './Kaif.jpg'
   },
+  {
+    quote:  "Atif's dedication and creativity are truly commendable. His ability to tackle challenges with innovative solutions is unmatched.",
+    name: "Dr Shadab Ameerullah ",  
+    title: "MBBS ( University of Ulyanvosk Russia)",  
+    people: './Shadab.jpg'  
+
+  }
+  ,
   {
     quote:
       "Atif mentorship has been transformative. His guidance and expertise have helped countless individuals achieve their goals.",
@@ -68,7 +76,7 @@ const testimonials = [
       "Atif is a dynamic entrepreneur with a rare blend of creativity and strategic thinking. His contributions to the startup ecosystem are invaluable.",
     name: "Devansh Mishra",
     title: "Full Stack Developer",
-    people : './devx.png'
+    people : './devx.jpg'
   },
 ];
 

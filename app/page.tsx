@@ -15,7 +15,7 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const totalDuration = 5000; // Total loading time in ms (5 seconds)
+    const totalDuration = 1500; // Total loading time in ms (5 seconds)
 
     // Start fade-out 2 seconds before the loading ends
     const fadeOutTimer = setTimeout(() => {
@@ -28,8 +28,7 @@ export default function Home() {
   }, []);
 
   return (
-    <>
-      {/* Animate Presence ensures smooth transitions */}
+    <> 
       <AnimatePresence>
         {isLoading && (
           <motion.div
@@ -43,14 +42,7 @@ export default function Home() {
           </motion.div>
         )}
       </AnimatePresence>
-
-      {/* Main Content */}
-      <motion.div
-        initial={{ opacity: 0, y: 30 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 2.0, delay: 1.0 }} // Delayed animation to sync with loading
-        className={isLoading ? "pointer-events-none" : ""} // Disable interaction during loading
-      >
+     
         <Hero />
         <MyTimeline />
         <MyWorks />
@@ -58,7 +50,6 @@ export default function Home() {
         <WorldMapDemo />
         <Testimonials />
         <Contact />
-      </motion.div>
     </>
   );
 }

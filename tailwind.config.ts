@@ -7,6 +7,7 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    
     extend: {
       colors: {
         background: "var(--background)",
@@ -21,6 +22,7 @@ export default {
           to: {
             transform: "translate(calc(-50% - 0.5rem))",
           },
+          
         },
       },
     },

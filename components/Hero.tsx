@@ -27,7 +27,7 @@ function HomePage() {
           <div>
             <h1 className="text-7xl text-[#d8ab6f] font-bold mb-2">ATIF ABBAS</h1>
             <h1 className="text-3xl text-[#d8ab6f] opacity-60 font-bold mb-4">A Young Entrepreneur</h1>
-            <h1 className="max-w-[400px] text-sm text-[#b7d1e1] opacity-60  mb-4">A visionary entrepreneur, passionate social activist, and dynamic public speaker dedicated to creating impact and shaping the future. From building innovative businesses to driving social change, Atif Abbas inspires individuals and communities to dream big, act boldly, and lead with purpose.</h1>
+            <h1 className="max-w-[400px] text-sm text-[#b7d1e1] opacity-70  mb-4">A visionary entrepreneur, passionate social activist, and dynamic public speaker dedicated to creating impact and shaping the future. From building innovative businesses to driving social change, Atif Abbas inspires individuals and communities to dream big, act boldly, and lead with purpose.</h1>
            
             <button onClick={handleScrollToContact} className="absolute z-30 px-4 py-2 text-[#ce906d] hover:text-black hover:bg-[#ce906d] border-2 border-[#ce906d] rounded-full flex justify-center items-center gap-2">
             Learn More<FaLongArrowAltRight className='text-2xl'/></button>
@@ -54,11 +54,11 @@ function HomePage() {
           <div>
           
             <h1 className="text-[#b7d1e1] mt-12 ml-8 flex items-center  text-xl font-semibold"> <GiAchievement className="text-3xl hover:animate-bounceHorizontal" />Member of EO</h1>
-            <h1 className="text-[#b7d1e1] text-sm ml-16"> Entreprenur Organisation Member</h1>
+            <h1 className="text-[#b7d1e1] text-sm ml-16"> Entreprenur Organization Global (Asia)</h1>
             <h1 className="text-[#b7d1e1] mt-8 ml-8 flex items-center  text-xl font-semibold"> <GiAchievement className="text-3xl hover:animate-bounceHorizontal" />Public Speaker</h1>
             <h1 className="text-[#b7d1e1] text-sm ml-16"> Mentors 1K+ Audience</h1>
             <h1 className="text-[#b7d1e1] mt-8 ml-8 flex items-center  text-xl font-semibold"> <GiAchievement className="text-3xl hover:animate-bounceHorizontal" />Owned 3+ Businesses</h1>
-            <h1 className="text-[#b7d1e1] text-sm ml-16"> Ayodhya,Lucknow,Portugal</h1>
+            <h1 className="text-[#b7d1e1] text-sm ml-16"> India & Overseas</h1>
           </div>
         </div>
           {/* Black Vintage Blur Effect */}

@@ -41,14 +41,14 @@ export function Team() {
       quote:
         "As an operational leader, scalability and reliability are key—and this platform delivers on both fronts, every time.",
       name: "Selena Dsouza",
-      designation: "Lead COO",
+      designation: "Lead Chief Operating Officer",
       src: "/coo.jpg",
     },
     {
       quote:
         "The financial insights provided by the system are unmatched. It has truly simplified our budgeting and forecasting processes.",
       name: "Shefali Mehrotra",
-      designation: "Lead CFO",
+      designation: "Chief FInancial Officer",
       src: "/cfo.jpg",
     },
     {
@@ -62,14 +62,14 @@ export function Team() {
       quote:
         "Marketing strategies have never been easier to implement and track. This platform has revolutionized the way we engage our audience.",
       name: "Akshita Tripathi",
-      designation: "Lead CMO",
+      designation: "Chief Marketing Officer",
       src: "/cmo.jpg",
     },
   ];
   
   return <>
     <div id="team" className=" flex flex-col justify-center items-center">   
-        <h1 className=" md:text-4xl text-2xl font-bold text-[#b7d1e1] "> Meet my team</h1>     
+        <h1 className=" md:text-4xl text-2xl font-bold text-[#d8ab6f] "> Meet my team</h1>     
   <AnimatedTestimonials testimonials={testimonials} />
     </div>
   </>;

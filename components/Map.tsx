@@ -6,8 +6,8 @@ export function WorldMapDemo() {
   return (
     <div id="bussiness" className="py-2 dark:bg-black bg-white w-full">
       <div className="max-w-7xl mx-auto text-center">
-        <p className="font-bold text-xl md:text-4xl dark:text-white text-black">
-          Bussiness Over{" "}
+        <p className="font-bold text-xl md:text-4xl text-[#d8ab6f] ">
+          Business Over{" "}
           <span className="text-neutral-400">
             {"World".split("").map((word, idx) => (
               <motion.span
