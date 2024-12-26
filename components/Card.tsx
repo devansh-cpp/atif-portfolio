@@ -27,7 +27,7 @@ export function TypewriterEffectSmoothDemo() {
                       className="object-cover scale-90 p-4  "
                     />
       <TypewriterEffectSmooth words={words} />
-      <p className="text-neutral-600 opacity-50 px-4 pb-4 text-cneter dark:text-neutral-200 text-sm sm:text-base  ">
+      <p className="  px-4 pb-4 text-cneter text-neutral-200 text-sm sm:text-base  ">
       A visionary entrepreneur, passionate social activist, and dynamic public speaker dedicated to creating impact and shaping the future. From building innovative businesses to driving social change, Atif Abbas inspires individuals and communities to dream big, act boldly, and lead with purpose.
       </p>
         <button onClick={handleScrollToContact} className="px-8 py-4 mb-32 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm">

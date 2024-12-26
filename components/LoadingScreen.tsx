@@ -39,12 +39,14 @@ export function LoadingScreen() {
         </div>
 
         {/* Loading text */}
+        <div className="flex justify-center items-center px-5">
+
         <motion.h2
-          className="text-2xl relative z-20 mt-8 md:text-4xl lg:text-5xl font-bold text-center text-black dark:text-white font-sans tracking-tight"
+          className="text-xl  relative z-20 mt-8 md:text-4xl lg:text-5xl font-bold text-center text-black dark:text-white font-sans tracking-tight"
           variants={itemVariants}
         >
           Mohammad Atif Abbas
-          <div className="relative mx-auto flex justify-center items-center w-max">
+          <div className="relative  flex justify-center items-center w-max">
             <motion.div
               className="bg-clip-text bg-no-repeat text-transparent bg-gradient-to-r py-4 from-[#d8ab6f] via-neutral-500 to-orange-200"
               variants={itemVariants}
@@ -53,6 +55,7 @@ export function LoadingScreen() {
             </motion.div>
           </div>
         </motion.h2>
+        </div>
       </motion.div>
   </>
   );

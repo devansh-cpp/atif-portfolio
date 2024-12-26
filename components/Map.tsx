@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 
 export function WorldMapDemo() {
   return (
-    <div id="bussiness" className="py-2 dark:bg-black bg-white w-full">
+    <div id="bussiness" className="py-2 bg-black  w-full">
       <div className="max-w-7xl mx-auto text-center">
         <p className="font-bold text-xl md:text-4xl text-[#d8ab6f] ">
           Business Over{" "}
