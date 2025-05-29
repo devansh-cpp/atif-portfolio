@@ -115,20 +115,46 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="hidden">
-           <div>
-          {/* Background */}
+        <div className=" ">
+           <div className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-black via-gray-900 to-green-900 text-white p-8 text-center">
+      <h1 className="text-6xl font-extrabold bg-gradient-to-r from-green-400 to-white bg-clip-text text-transparent animate-pulse mb-4">
+        💰 Access Denied
+      </h1>
+      <p className="text-xl mb-6 max-w-2xl text-gray-300">
+        Delivered this masterpiece <span className="text-green-400 font-semibold">6 months ago</span> — but hey, guess what?
+        Still waiting on that "promised" payment. Meanwhile, your services are enjoying a luxurious nap. 😴
+      </p>
+      
+      <div className="bg-black/60 backdrop-blur-lg border border-green-400 p-6 rounded-2xl shadow-2xl">
+        <p className="text-2xl font-bold text-white mb-2">
+          Project Status: <span className="text-green-300">Frozen in Time ❄️</span>
+        </p>
+        <p className="text-gray-400 italic">
+          Good things cost money. Just not exposure, pizza, or "bro we'll pay next week".
+        </p>
+      </div>
+
+      <button className="mt-8 px-6 py-3 rounded-full bg-green-500 hover:bg-green-600 text-white font-semibold shadow-lg transition duration-300">
+        Unfreeze with Payment 💸
+      </button>
+
+      <p className="text-sm mt-6 text-gray-500">
+        Created by <span className="text-green-300 font-medium">sudoweb.in</span> — because legends deserve credit.
+      </p>
+    </div>
+           {/* <div>
+       
           <div className="absolute inset-0 -z-10 h-screen w-full bg-[linear-gradient(to_right,#d0e2ec_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] opacity-10 bg-[size:2rem_2rem]"></div>
 
-          {/* Navbar */}
+         
           <Navbar />
 
-          {/* Main Content */}
+      
           <div className="mx-auto">{children}</div>
 
-          {/* Footer */}
+          
           <Footer />
-        </div>
+        </div> */}
         </div>
        
       </body>
